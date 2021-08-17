@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ShiFuMi - Jeu du Pierre, Feuille, Ciseaux</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-white">
+                <h1 class="fs-1 mb-5">ShiFuMi</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 d-flex flex-column">
+                <button id="rock">PIERRE</button>
+                <button id="paper">FEUILLE</button>
+                <button id="scissors">CISEAUX</button>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center mt-5">
+            <h3 class="col-lg-12 text-white">SCORE</h3>
+            <div id="result"></div>
+            <div class="col-lg-6">VOUS : <div id="counter1">0</div> </div>
+            <div class="col-lg-6">ORDI : <div id="counter2">0</div> </div>
+            
+            <div class="mt-3"></div>
+        </div>
+        <audio  id="loose" src="assets/sound/Nope (Construction Worker TF2) - Gaming Sound Effect (HD).mp3"></audio>
+        <audio id="win" src="assets/sound/Perfect (Street Fighter) Sound Effect.mp3"></audio>
+        <audio id="egal" src="assets/sound/Wet Fart  Sound Effect.mp3"></audio>
+    </div>
+    <div class="text-center mt-5">©2021 Joh. Tous droits réservés.</div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
